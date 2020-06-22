@@ -1,0 +1,145 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	background: url("images/photo-1502346839464-dd9527fe8869.jpg");
+	background-size: cover;
+}
+
+#tap_body {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header{
+	text-align: center;
+	color: white;
+}
+
+header h1{
+	font-size: 50px;
+	margin: 10px 0px 10px 0px;
+}
+
+header p{
+	font-size: 17px;
+}
+
+.pads{
+	width: 100%;
+	background-color: antiquewhite;
+	display: flex;
+}
+
+.pads div{
+	height: 150px;
+	width: 100%;
+}
+.pad1{
+	background: url("images/120729621-music.jpg");
+	background-size: cover;
+	background-position: center;
+	border:1px solid black ;
+}
+
+.pad2{
+	background: url("images/126504385-music.jpg");
+	background-size: cover;
+	background-position: center;
+	border:1px solid black ;
+}
+
+.pad3{
+	background: url("images/81228066-music.jpg");
+	background-size: cover;
+	background-position: center;
+	border:1px solid black ;
+}
+
+.pad4{
+	background: url("images/87671626-music.jpg");
+	background-size: cover;
+	background-position: center;
+	border:1px solid black ;
+	border:1px solid black ;
+}
+
+.pad5{
+	background: url("images/colorful-g-clef-with-music-notes-vector-illustration-design.jpg");
+	background-size: cover;
+	background-position: center;
+	border:1px solid black ;
+}
+
+.pad6{
+	background: url("images/istockphoto-.jpg");
+	background-size: cover;
+	background-position: center;
+	border:1px solid black ;
+}
+
+.visuals > div {
+	position: absolute;
+	height:  50px;
+	width: 50px;
+	border-radius: 50%;
+	bottom: 0%;
+	left: 20%;
+	bottom: 0%;
+	z-index: -1;
+}
+
+@keyframes jump {
+	0%{
+		bottom:0%;
+		left:20%;
+	}
+	50%{
+		bottom:50%;
+		left:50%;
+	}
+	100%{
+		bottom:0%;
+		left:80%;
+	}
+}
+
+
+.visual > div {
+	position: absolute;
+	height:  50px;
+	width: 50px;
+	border-radius: 50%;
+	bottom: 0%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
